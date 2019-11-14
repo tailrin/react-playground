@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import Tabs from './state/Tabs';
 
 const tabsProp = [
@@ -16,6 +17,31 @@ class App extends React.Component {
       <Tabs tabs={tabsProp} />
     </div>
   }
+=======
+import Accordion from './state-drills/Accordion.js';
+const sections = [
+  {
+    title: 'Section 1',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    title: 'Section 2',
+    content: 'Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!',
+  },
+  {
+    title: 'Section 3',
+    content: 'Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?',
+  },
+]
+
+
+function App() {
+  return (
+    <main className='App'>
+      <Accordion sections={sections} />
+    </main>
+  );
+>>>>>>> 49d20339081b25682e6a38634fc6685368697eea
 }
 
   
